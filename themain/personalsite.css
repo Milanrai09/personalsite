@@ -145,10 +145,18 @@ section.first {
     
     
 }
-img {
+.first p{
+    width: 100%;
+    height: auto;
+    font-size: 1.2rem;
+    
+}
+.second img {
     height: 40vh;
     border-radius: 56px;
     transition: transform .2s;
+    width: 100%;
+    height: auto;
 }
 
 section.second {
@@ -166,22 +174,35 @@ section.second {
 }
 
 .technologies .fa-brands{
-    font-weight: 400;
     padding: 21px;
     color: white;
     margin-top: 8%;
+    height: auto;
+    width: 100%;
+    font-size: 2.9rem;
+   
 }
 section.technologies {
-    font-size: 6rem;
     display: flex;
     justify-content: center;
     margin-top: 85px;
     margin-bottom: 129px;
 }
+.initial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.followup {
+    display: flex;
+    flex-direction: column;
+}
 section.third {
     margin-left: 33%;
     border: 1px solid black;
-    width: 54%;
+    max-width: 666px;
     margin-top: 11%;
     padding: 46px;
     font-size: 2rem;
@@ -190,6 +211,9 @@ section.third {
 .third img{
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
+    height: auto;
+    width: 100%;
+    
 }
 .third img:hover{
     transform: scale(1);
@@ -214,4 +238,11 @@ h3 {
   
 ::-webkit-scrollbar-corner {
     background: #1A1A1A;
+  }
+
+.third p{
+    font-size: 1.2rem;
+  }
+.second p{
+    font-size: 1.2rem;
   }
