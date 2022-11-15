@@ -78,6 +78,9 @@ a {
 }
    
 @media(max-width:62em){
+    html, body{
+        overflow-x: hidden;
+    }
     .nav-toggle {
         visibility: visible;
         z-index: 33;
@@ -137,7 +140,7 @@ a {
 section.first {
     border: 1px solid black;
     width: 54%;
-    margin-left: 19%;
+    margin-left: 17%;
     margin-top: 11%;
     padding: 46px;
     font-size: 2rem;
@@ -145,17 +148,23 @@ section.first {
     
     
 }
+.first h5{
+    display: flex;
+    justify-content: center;
+}
 .first p{
     width: 100%;
     height: auto;
     font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
     
 }
 .second img {
-    height: 40vh;
+    height: auto;
     border-radius: 56px;
     transition: transform .2s;
-    width: 100%;
+    width: 55%;
     height: auto;
 }
 
@@ -212,7 +221,7 @@ section.third {
     transform: scale(1.1);
     transition: 0.3s ease-in-out;
     height: auto;
-    width: 100%;
+    width: 75%;
     
 }
 .third img:hover{
